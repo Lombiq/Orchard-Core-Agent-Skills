@@ -66,6 +66,12 @@ Use the Orchard Core agent skill to update `placement.json` so Page detail displ
 Follow the [orchard-core-theming maintenance guide](maintenance/orchard-core-theming.md) for the step-by-step update workflow.
 For refresh commands, see [Refreshing installed skills](#refreshing-installed-skills).
 
+### `pomi-blocks`
+
+A composition preference for building Orchard Core sites with Pomi. It replaces FlowPart/Widget page sections with an ordered `BagPart` using the `Blocks` editor and section content types with the `Block` stereotype, including nested repeated components, useful field placement and matching Liquid templates. It relies only on built-in Orchard Core features and lets Pomi handle the rest of the build.
+
+Use it alongside Pomi when creating a website from a brief or supplied materials, or when designing editable pages and sections.
+
 ## Installing skills
 
 The quickest way to install from this repository is to use the `skills` CLI, which detects and installs skills automatically.
